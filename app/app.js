@@ -244,7 +244,7 @@ async function fetchCologneWeather() {
 
          // Update the weather icon inside the button
          const weatherIcon = document.getElementById("weather-icon2");
-         weatherIcon.src = iconUrl;
+         //weatherIcon.src = iconUrl;
          weatherIcon.alt = data.weather[0].description; // Update alt text for accessibility
     } catch (error) {
         console.error("Error fetching weather data:", error);
